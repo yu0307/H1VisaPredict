@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import math
 from matplotlib import pyplot as plt
-
 exc_file = 'Analysis.xlsx'
 df = pd.read_excel(exc_file)
 
