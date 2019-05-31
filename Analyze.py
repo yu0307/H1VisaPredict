@@ -1,6 +1,5 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-
 exc_file='VISA.xlsx'
 visa=pd.read_excel(exc_file)
 byLocation = visa.groupby(by="Visa Type")
